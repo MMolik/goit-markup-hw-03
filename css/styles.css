@@ -53,6 +53,7 @@ body {
 }
 .logo-studio {
   color: var(--dark);
+  margin-bottom: 16px;
 }
 .footer {
   background-color: var(--dark);
@@ -80,7 +81,6 @@ body {
 .logo-studio-footer {
   color: #f4f4fd;
   display: inline-block;
-  margin-bottom: 16px;
 }
 .contact {
   color: var(--slate);
@@ -174,6 +174,7 @@ body {
   letter-spacing: 0.4px;
   word-wrap: break-word;
   text-align: center;
+  margin-bottom: 8px;
 }
 .head-two-tag {
   color: var(--dark);
@@ -207,7 +208,7 @@ body {
   word-wrap: break-word;
   text-transform: capitalize;
   margin-top: 120px;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 .team-list {
   background-color: #ffffff;
@@ -312,4 +313,16 @@ img {
 }
 .team-member {
   padding: 32px 0px;
+}
+.header-portfolio-page {
+  border-bottom: 1px solid #e7e9fc;
+}
+.list-porfolio {
+  padding-top: 96px;
+}
+.list-main-section-portfolio {
+display: flex;
+justify-content: center;
+gap: 24px;
+margin-bottom: 72px;
 }
