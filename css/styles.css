@@ -242,7 +242,8 @@ body {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .menu-list {
   display: flex;
@@ -320,9 +321,20 @@ img {
 .list-porfolio {
   padding-top: 96px;
 }
-.list-main-section-portfolio {
+.list-main-section-porfolio {
   display: flex;
-  justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+}
+.button-portfolio {
+  border-radius: 4px;
+  border: 1px #e7e9fc solid;
+}
+.portfolio-images {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.portfolio-items {
+  width: calc((100% - 48px) / 3);
 }
