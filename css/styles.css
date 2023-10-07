@@ -38,10 +38,10 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-decoration: none;
+  margin-right: 76px;
 }
 .logo-studio {
   color: var(--dark);
-  margin-right: 76px;
 }
 .footer {
   background-color: var(--dark);
@@ -51,6 +51,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .list-first:hover {
   color: #404bbf;
@@ -104,6 +105,7 @@ body {
 .section-main {
   background-color: var(--dark);
   color: #ffffff;
+  padding: 188px 0;
 }
 .paragraph {
   line-height: 1.5;
@@ -121,8 +123,8 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
-  padding-top: 188px;
+  max-width: 496px;
+  margin: auto;
 }
 .button-order-service {
   background-color: var(--iris);
@@ -136,8 +138,11 @@ body {
   border: none;
   cursor: pointer;
   padding: 16px 32px;
-  margin-left: 450px;
-  margin-bottom: 188px;
+  margin: auto;
+  display: block;
+  margin-top: 48px;
+  min-width: 169px;
+  border-radius: 4px;
 }
 .button-order-service:hover {
   background-color: #404bbf;
@@ -163,6 +168,7 @@ body {
   line-height: 40px;
   letter-spacing: 0.72px;
   word-wrap: break-word;
+  margin-bottom: 8px;
 }
 .h2-tag-portfolio {
   font-size: 20px;
@@ -218,8 +224,7 @@ body {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
 }
 .menu-list {
   display: flex;
@@ -274,4 +279,13 @@ body {
 }
 img {
   display: block;
+}
+.header-main-page {
+  border-bottom: 1px solid #e7e9fc;
+}
+.images-section {
+  padding-bottom: 120px;
+}
+.list-strategy-items {
+  width: calc(100%-72px) / 4;
 }
