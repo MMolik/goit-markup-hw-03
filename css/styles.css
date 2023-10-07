@@ -38,6 +38,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-decoration: none;
+  margin-left: 156px;
 }
 .logo-studio {
   color: var(--dark);
@@ -58,7 +59,6 @@ body {
   color: #404bbf;
 }
 .list-first:visited {
-  color: #40;
 }
 .address {
   font-style: normal;
@@ -116,10 +116,12 @@ body {
   word-wrap: break-word;
 }
 .head-first-tag {
-  text-align: center;
   font-size: 56px;
+  font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
+  padding-top: 188px;
 }
 .button-order-service {
   background-color: var(--iris);
@@ -132,6 +134,9 @@ body {
   word-wrap: break-word;
   border: none;
   cursor: pointer;
+  padding: 16px 32px;
+  margin-left: 450px;
+  margin-bottom: 188px;
 }
 .button-order-service:hover {
   background-color: #404bbf;
@@ -188,12 +193,7 @@ body {
   word-wrap: break-word;
   color: var(--dark);
 }
-.test {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
+
 .paragraph-footer {
   line-height: 1.5;
   color: var(--cloud);
@@ -210,4 +210,61 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark);
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.menu-list {
+  display: flex;
+  justify-content: flex-start;
+  gap: 24px;
+  padding-left: 76px;
+  padding-top: 24px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.list-strategy {
+  display: flex;
+}
+.list-images {
+  display: flex;
+  gap: 24px;
+}
+.list-team {
+  display: flex;
+  gap: 24px;
+}
+.paragraph-strategy {
+}
+.address-list {
+  display: flex;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.header-cointainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  height: 72px;
 }
