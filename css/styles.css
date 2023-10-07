@@ -50,10 +50,11 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   margin-right: 76px;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 .logo-studio {
   color: var(--dark);
-  margin-bottom: 16px;
 }
 .footer {
   background-color: var(--dark);
@@ -80,7 +81,6 @@ body {
 
 .logo-studio-footer {
   color: #f4f4fd;
-  display: inline-block;
 }
 .contact {
   color: var(--slate);
@@ -321,8 +321,8 @@ img {
   padding-top: 96px;
 }
 .list-main-section-portfolio {
-display: flex;
-justify-content: center;
-gap: 24px;
-margin-bottom: 72px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
