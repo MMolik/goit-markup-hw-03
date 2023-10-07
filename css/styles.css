@@ -38,10 +38,10 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-decoration: none;
-  margin-left: 156px;
 }
 .logo-studio {
   color: var(--dark);
+  margin-right: 76px;
 }
 .footer {
   background-color: var(--dark);
@@ -114,6 +114,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   word-wrap: break-word;
+  box-sizing: content-box;
 }
 .head-first-tag {
   font-size: 56px;
@@ -173,6 +174,7 @@ body {
 .section {
   background-color: #f4f4fd;
 }
+
 .header {
   color: var(--dark);
   font-size: 36px;
@@ -182,6 +184,8 @@ body {
   letter-spacing: 0.02em;
   word-wrap: break-word;
   text-transform: capitalize;
+  margin-top: 120px;
+  margin-bottom: 72px;
 }
 .team-list {
   background-color: #ffffff;
@@ -220,8 +224,8 @@ body {
 .menu-list {
   display: flex;
   justify-content: flex-start;
-  gap: 24px;
-  padding-left: 76px;
+  gap: 40px;
+  padding-bottom: 24px;
   padding-top: 24px;
 }
 .visually-hidden {
@@ -238,6 +242,7 @@ body {
 }
 .list-strategy {
   display: flex;
+  gap: 24px;
 }
 .list-images {
   display: flex;
@@ -258,13 +263,15 @@ body {
 .nav-list {
   display: flex;
   flex-direction: row;
-  align-items: baseline;
+  align-items: center;
 }
 .header-cointainer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-top: 24px;
-  padding-bottom: 24px;
   height: 72px;
+}
+img {
+  display: block;
 }
