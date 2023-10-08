@@ -246,7 +246,6 @@ body {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-
 }
 .menu-list {
   display: flex;
@@ -295,7 +294,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 24px;
   height: 72px;
 }
 img {
