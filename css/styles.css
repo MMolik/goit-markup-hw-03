@@ -239,12 +239,14 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark);
+  margin-bottom: 8px;
 }
 .container {
   width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+
 }
 .menu-list {
   display: flex;
@@ -349,7 +351,8 @@ img {
 }
 .portfolio-images {
   display: flex;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
   flex-wrap: wrap;
 }
 .portfolio-items {
@@ -362,4 +365,9 @@ img {
 .list-portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
+}
+.portfolio-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
