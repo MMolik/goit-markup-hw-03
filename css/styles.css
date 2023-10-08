@@ -53,6 +53,8 @@ body {
   margin-right: 76px;
   margin-bottom: 16px;
   display: inline-block;
+  padding-top: 24px;
+
 }
 .logo-studio {
   color: var(--dark);
