@@ -4,6 +4,7 @@
   --slate: #434455;
   --cloud: #f4f4fd;
   --iris: #4d5ae5;
+  --ocean:#404bbf;
 }
 
 body {
@@ -195,7 +196,7 @@ body {
   color: var(--dark);
 }
 .section {
-  background-color: #f4f4fd;
+  background-color: white;
 }
 
 .header {
@@ -264,9 +265,10 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.list-strategy {
+.list-main-section-porfolio {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 .list-images {
   display: flex;
@@ -329,6 +331,12 @@ img {
 .button-portfolio {
   border-radius: 4px;
   border: 1px #e7e9fc solid;
+  background-color: var(--cloud);
+  color:var(--iris)
+  padding: 12px 24px;
+  margin-top: 96px;
+  margin-bottom: 72px;
+
 }
 .portfolio-images {
   display: flex;
@@ -338,3 +346,6 @@ img {
 .portfolio-items {
   width: calc((100% - 48px) / 3);
 }
+.paragraph-portfolio {
+  text-align: left;
+color:var(--slate);}
