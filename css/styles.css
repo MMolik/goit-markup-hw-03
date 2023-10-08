@@ -6,6 +6,10 @@
   --iris: #4d5ae5;
   --ocean: #404bbf;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font-family: "Roboto", sans-serif;
