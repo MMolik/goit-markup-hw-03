@@ -293,7 +293,7 @@ body {
 .nav-list {
   display: flex;
   flex-direction: row;
-  align-items: baseline;
+  align-items: center;
 }
 .header-cointainer {
   display: flex;
@@ -387,4 +387,16 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+.logo-nav {
+  color: var(--iris);
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  margin-right: 76px;
+  display: inline-block;
 }
